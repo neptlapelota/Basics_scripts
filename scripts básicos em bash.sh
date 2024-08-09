@@ -4,7 +4,8 @@
 
 echo sistema operacional: $(uname -a)
 
-#Qual nome da CPU?# echo cpu: $(inxi -c)
+#Qual nome da CPU?# 
+echo cpu: $(inxi -c)
 
 #momoria total#
 
@@ -16,7 +17,7 @@ echo espaço em disco total: $(df)
 
 #informações do usuario#
 
-echo Nome do Usuario: $(whoami)
+echo Nome de Usuario: $(whoami)
 
 #nome do diretorio home#
 
